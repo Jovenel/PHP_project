@@ -1,0 +1,60 @@
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    background: linear-gradient(to right, rgb(147, 155, 6), rgb(155, 139, 143));
+}
+.footer, .conteneur {
+    background-color: rgb(0, 0, 0);
+}
+.bg-royalblue, footer {
+    background-color: rgb(0, 0, 0);
+}
+.text-royalblue {
+    color: royalblue;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+.filtres .list-group a {
+    text-decoration: none;
+}
+.filtres .list-group-item:hover a {
+    color: white;
+}
+.filtres .list-group-item:hover {
+    background-color: royalblue;
+}
+.reservez{
+    margin-left: 50%;
+}
+.danger{
+    color: red;
+}
+
+
+
+
+
+/*
+*/
+
+#divToShowHide{
+    /* top:100px;
+  position:fixed; */
+  }
+  .BeforeScroll {
+    height: 100px;
+    width: 100%;
+    display: none;
+  }
+  
+  .AfterScroll {
+    /* height: 100px;
+    width: 100%; */
+    display: visible;
+  }
